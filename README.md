@@ -1,4 +1,4 @@
-# cake_shop website
+# Cake_Shop website
 
 This is a simple and responsive Cake Shop website built using HTML, CSS, and Bootstrap. The website includes multiple pages.
 
