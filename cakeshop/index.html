@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="about"></div>
+    <div id="services"></div>
+    <div id="gallery"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+
+    <script>
+        function loadComponent(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        loadComponent('header', 'header.html');
+        loadComponent('hero', 'hero.html');
+        loadComponent('about', 'about.html');
+        loadComponent('services', 'service.html');
+        loadComponent('gallery', 'gallery.html');
+        loadComponent('contact', 'contact.html');
+        loadComponent('footer', 'footer.html');
+    </script>
+</body>
+</html>
