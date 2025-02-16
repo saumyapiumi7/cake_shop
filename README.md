@@ -1,8 +1,10 @@
 # cake_shop website
 
-This is a simple and responsive Cake Shop website built using HTML, CSS, and Bootstrap. The website includes multiple pages:
+This is a simple and responsive Cake Shop website built using HTML, CSS, and Bootstrap. The website includes multiple pages.
+
 
 Features
+========
 
 Home Page (index.html): Includes a header, hero section, and navigation.
 
@@ -15,7 +17,9 @@ Contact Page (contact.html): Provides the shop's address, phone number, email, a
 About Us Page (about.html): Highlights team members, vision, mission, and achievements.
 
 
-Technologies Used
+
+Technologies 
+============
 
 HTML5
 
@@ -24,6 +28,9 @@ CSS3
 Bootstrap 5
 
 Google Images (for placeholders)
+
+
+
 
 
 Enjoy baking and coding!
